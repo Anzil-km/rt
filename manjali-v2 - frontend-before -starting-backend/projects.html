@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects - Archios</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <style>
+        body {
+            font-family: 'Space Grotesk', sans-serif;
+            background-color: #1a1a1a;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="fixed w-full z-50 px-2 md:px-8 py-6">
+        <div class="max-w-5xl mx-auto bg-[#1a1a1a]/90 backdrop-blur-sm px-6 py-4 rounded-full border border-gray-800 shadow-lg">
+            <div class="flex justify-between items-center">
+                <span class="text-white flex items-center gap-2">
+                    <img src="manjani-logo.png" alt="" class="h-8 w-auto">
+                    <span>Manjaly</span>
+                  </span>
+                        <div class="hidden md:flex space-x-8">
+                    <a href="index.html" class="text-gray-400 hover:text-white transition-colors">Home</a>
+                    <a href="#" class="text-white">Projects</a>
+                    <a href="#" class="text-gray-400 hover:text-white transition-colors">Services</a>
+                    <a href="gallery.html" class="text-gray-400 hover:text-white transition-colors">Gallery</a>
+                    <a href="#" class="text-gray-400 hover:text-white transition-colors">Contact</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="relative min-h-screen flex items-center">
+        <div class="absolute inset-0">
+            <img src="https://images.unsplash.com/photo-1600607687920-4e2a09cf159d" 
+                 alt="Hero Background" 
+                 class="w-full h-full object-cover">
+            <div class="absolute inset-0 bg-black/50 backdrop-blur-sm"></div>
+        </div>
+        <div class="relative z-10 max-w-7xl mx-auto px-4 md:px-8 text-center">
+            <h1 class="text-3xl sm:text-4xl md:text-6xl font-bold mb-6" data-aos="fade-down">
+                Our Portfolio of<br>Excellence
+            </h1>
+            <p class="text-xl text-gray-300 mb-8 max-w-3xl mx-auto" data-aos="fade-up" data-aos-delay="200">
+                Explore our diverse collection of architectural projects that showcase our commitment to innovation and quality.
+            </p>
+        </div>
+    </section>
+
+    <!-- Projects Grid Section -->
+    <section class="py-20 px-4 md:px-8">
+        <div class="max-w-7xl mx-auto">
+            <h2 class="text-3xl md:text-4xl font-bold mb-12 text-center" data-aos="fade-up">Featured Projects</h2>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Project 1 -->
+                <div class="overflow-hidden rounded-lg" data-aos="fade-up">
+                    <div class="h-[300px] w-full">
+                        <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c" 
+                             alt="Modern House"
+                             class="w-full h-full object-contain">
+                    </div>
+                    <div class="p-4 bg-[#1a1a1a]">
+                        <h3 class="text-xl font-bold mb-2">The Glass House</h3>
+                        <p class="text-gray-300">123 Modernist Lane, Beverly Hills</p>
+                        <p class="text-gray-300">8,500 sq ft</p>
+                        <p class="text-gray-300">Client: Johnson Family Trust</p>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="overflow-hidden rounded-lg" data-aos="fade-up" data-aos-delay="100">
+                    <div class="h-[300px] w-full">
+                        <img src="https://images.unsplash.com/photo-1600596542815-ffad4c1539a9" 
+                             alt="Commercial Building"
+                             class="w-full h-full object-contain">
+                    </div>
+                    <div class="p-4 bg-[#1a1a1a]">
+                        <h3 class="text-xl font-bold mb-2">Skyline Tower</h3>
+                        <p class="text-gray-300">456 Financial District, Manhattan</p>
+                        <p class="text-gray-300">125,000 sq ft</p>
+                        <p class="text-gray-300">Client: Global Ventures Corp</p>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="overflow-hidden rounded-lg" data-aos="fade-up" data-aos-delay="200">
+                    <div class="h-[300px] w-full">
+                        <img src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c" 
+                             alt="Interior Design"
+                             class="w-full h-full object-contain">
+                    </div>
+                    <div class="p-4 bg-[#1a1a1a]">
+                        <h3 class="text-xl font-bold mb-2">The Oasis Residence</h3>
+                        <p class="text-gray-300">789 Palm Springs Drive, California</p>
+                        <p class="text-gray-300">12,000 sq ft</p>
+                        <p class="text-gray-300">Client: Martinez Enterprises</p>
+                    </div>
+                </div>
+
+                <!-- Project 4 -->
+                <div class="overflow-hidden rounded-lg" data-aos="fade-up">
+                    <div class="h-[300px] w-full">
+                        <img src="https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3" 
+                             alt="Urban Development"
+                             class="w-full h-full object-contain">
+                    </div>
+                    <div class="p-4 bg-[#1a1a1a]">
+                        <h3 class="text-xl font-bold mb-2">Urban Heights Complex</h3>
+                        <p class="text-gray-300">321 Downtown Avenue, Chicago</p>
+                        <p class="text-gray-300">85,000 sq ft</p>
+                        <p class="text-gray-300">Client: Urban Living Development</p>
+                    </div>
+                </div>
+
+                <!-- Project 5 -->
+                <div class="overflow-hidden rounded-lg" data-aos="fade-up" data-aos-delay="100">
+                    <div class="h-[300px] w-full">
+                        <img src="https://images.unsplash.com/photo-1600585154526-990dced4db0d" 
+                             alt="Eco House"
+                             class="w-full h-full object-contain">
+                    </div>
+                    <div class="p-4 bg-[#1a1a1a]">
+                        <h3 class="text-xl font-bold mb-2">Green Valley Estate</h3>
+                        <p class="text-gray-300">567 Eco Park Road, Portland</p>
+                        <p class="text-gray-300">6,200 sq ft</p>
+                        <p class="text-gray-300">Client: EcoLiving Solutions</p>
+                    </div>
+                </div>
+
+                <!-- Project 6 -->
+                <div class="overflow-hidden rounded-lg" data-aos="fade-up" data-aos-delay="200">
+                    <div class="h-[300px] w-full">
+                        <img src="https://images.unsplash.com/photo-1600573472550-8090b5e0745e" 
+                             alt="Public Space"
+                             class="w-full h-full object-contain">
+                    </div>
+                    <div class="p-4 bg-[#1a1a1a]">
+                        <h3 class="text-xl font-bold mb-2">Central Plaza Project</h3>
+                        <p class="text-gray-300">890 Community Square, Seattle</p>
+                        <p class="text-gray-300">45,000 sq ft</p>
+                        <p class="text-gray-300">Client: Seattle City Council</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script>
+        AOS.init({
+            duration: 800,
+            once: true,
+            offset: 100,
+            easing: 'ease-out-cubic'
+        });
+    </script>
+</body>
+</html>

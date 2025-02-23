@@ -1,0 +1,569 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - Archios</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Space Grotesk', sans-serif;
+            background-color: #1a1a1a;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation (Same as index.html) -->
+    <nav class="fixed w-full z-50 bg-[#1a1a1a] bg-opacity-95 px-4 md:px-8 py-4">
+        <div class="max-w-7xl mx-auto flex justify-between items-center">
+          <a href="#" class="text-2xl font-bold flex items-center">
+            <span class="text-white flex items-center gap-2">
+              <img src="manjani-logo.png" alt="" class="h-8 w-auto">
+              <span>Manjaly</span>
+            </span>
+          </a>
+          <div class="hidden md:flex space-x-8">
+            <a href="#" class="text-white hover:text-gray-300">Home</a>
+            <a href="#" class="text-gray-400 hover:text-white">Work</a>
+            <a href="#" class="text-gray-400 hover:text-white">Service</a>
+            <a href="gallery.html" class="text-gray-400 hover:text-white"
+              >Gallery</a
+            >
+            <a href="#" class="text-gray-400 hover:text-white">Contact</a>
+          </div>
+        </div>
+      </nav>
+  
+  
+    <!-- Hero Section -->
+    <section class="relative min-h-screen flex items-center">
+        <div class="absolute inset-0">
+            <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c" 
+                 alt="Hero Background" 
+                 class="w-full h-full object-cover">
+            <div class="absolute inset-0 bg-black/50 backdrop-blur-sm"></div>
+        </div>
+        <div class="relative z-10 max-w-7xl mx-auto px-4 md:px-8 text-center">
+            <h1 class="text-3xl sm:text-4xl md:text-6xl font-bold mb-6" data-aos="fade-down">
+                Building Tomorrow's<br>Landmarks Today
+            </h1>
+            <p class="text-xl text-gray-300 mb-8 max-w-3xl mx-auto" data-aos="fade-up" data-aos-delay="200">
+                With over two decades of architectural excellence, we've been shaping skylines and transforming spaces across the globe.
+            </p>
+            <button class="bg-white text-black px-8 py-3 rounded hover:bg-transparent hover:text-white hover:border-white border-2 border-white transition-all" data-aos="fade-up" data-aos-delay="400">
+                Explore Our Legacy
+            </button>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section class="py-20">
+        <div class="max-w-7xl mx-auto px-4 md:px-8">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+                <div data-aos="fade-right">
+                    <h2 class="text-4xl md:text-5xl font-bold mb-6">Our Story</h2>
+                    <p class="text-gray-400 mb-6">
+                        Founded in 1995, Archios has grown from a small design studio to a leading architectural firm. Our journey has been marked by unwavering commitment to excellence, innovation, and sustainable design practices.
+                    </p>
+                    <p class="text-gray-400 mb-6">
+                        Today, we're proud to be at the forefront of architectural innovation, creating spaces that inspire, function flawlessly, and stand the test of time.
+                    </p>
+                    <div class="grid grid-cols-2 gap-8 mt-8">
+                        <div>
+                            <h3 class="text-5xl font-bold mb-2">20+</h3>
+                            <p class="text-gray-400">Years Experience</p>
+                        </div>
+                        <div>
+                            <h3 class="text-5xl font-bold mb-2">500+</h3>
+                            <p class="text-gray-400">Projects Completed</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="relative" data-aos="fade-left">
+                    <img src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c" 
+                         alt="About Us" 
+                         class="w-full rounded-lg">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us -->
+    <section class="py-20 bg-[#1a1a1a]">
+        <div class="max-w-7xl mx-auto px-4 md:px-8">
+            <h2 class="text-4xl md:text-5xl font-bold text-center mb-16" data-aos="fade-down">Why Choose Us</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <div class="border-2 border-gray-800 p-8 rounded-lg hover:border-gray-600 transition-colors" data-aos="fade-up" data-aos-delay="100">
+                    <div class="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center flex-shrink-0 mb-6">
+                        <i class="ri-award-line text-primary text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-4">Design Excellence</h3>
+                    <p class="text-gray-400">Award-winning architectural designs that push creative boundaries</p>
+                </div>
+
+                <div class="border-2 border-gray-800 p-8 rounded-lg hover:border-gray-600 transition-colors" data-aos="fade-up" data-aos-delay="200">
+                    <div class="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center flex-shrink-0 mb-6">
+                        <i class="ri-team-line text-primary text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-4">Expert Team</h3>
+                    <p class="text-gray-400">Highly skilled professionals with diverse architectural expertise</p>
+                </div>
+
+                <div class="border-2 border-gray-800 p-8 rounded-lg hover:border-gray-600 transition-colors" data-aos="fade-up" data-aos-delay="300">
+                    <div class="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center flex-shrink-0 mb-6">
+                        <i class="ri-leaf-line text-primary text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-4">Sustainable Focus</h3>
+                    <p class="text-gray-400">Commitment to eco-friendly and sustainable building practices</p>
+                </div>
+
+                <div class="border-2 border-gray-800 p-8 rounded-lg hover:border-gray-600 transition-colors" data-aos="fade-up" data-aos-delay="400">
+                    <div class="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center flex-shrink-0 mb-6">
+                        <i class="ri-customer-service-2-line text-primary text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-4">Client-Focused</h3>
+                    <p class="text-gray-400">Dedicated to exceeding client expectations at every step</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Our Approach -->
+    <section class="py-20 bg-[#1a1a1a]">
+        <div class="max-w-7xl mx-auto px-4 md:px-8">
+            <h2 class="text-4xl md:text-5xl font-bold text-center mb-6" data-aos="fade-down">Our Approach to Quality & Execution</h2>
+            <p class="text-gray-400 text-center mb-16 max-w-3xl mx-auto" data-aos="fade-up">
+                We follow a comprehensive methodology to ensure excellence in every project
+            </p>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <!-- Systematic Project Execution -->
+                <div class="border-2 border-gray-800 p-8 rounded-lg hover:border-gray-600 transition-colors" data-aos="fade-up" data-aos-delay="100">
+                    <div class="flex items-start gap-6">
+                        <div class="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center flex-shrink-0">
+                            <i class="ri-lightbulb-line text-primary text-2xl"></i>
+                        </div>
+                        <div>
+                            <h3 class="text-xl font-bold mb-4">Systematic Project Execution</h3>
+                            <ul class="space-y-3 text-gray-400">
+                                <li>• Regular requisitioning, reporting, and apex-level control ensure cost and time efficiency</li>
+                                <li>• Dedicated General Manager and structured teams for smooth operations</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- On-Site Quality Control -->
+                <div class="border-2 border-gray-800 p-8 rounded-lg hover:border-gray-600 transition-colors" data-aos="fade-up" data-aos-delay="200">
+                    <div class="flex items-start gap-6">
+                        <div class="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center flex-shrink-0">
+                            <i class="ri-tools-line text-primary text-2xl"></i>
+                        </div>
+                        <div>
+                            <h3 class="text-xl font-bold mb-4">On-Site Quality Control</h3>
+                            <ul class="space-y-3 text-gray-400">
+                                <li>• Fully equipped laboratories at each site</li>
+                                <li>• Daily material testing as per Indian Standards before use</li>
+                                <li>• Strict quality checklists to ensure top-tier workmanship</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project Monitoring & Reporting -->
+                <div class="border-2 border-gray-800 p-8 rounded-lg hover:border-gray-600 transition-colors" data-aos="fade-up" data-aos-delay="300">
+                    <div class="flex items-start gap-6">
+                        <div class="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center flex-shrink-0">
+                            <i class="ri-bar-chart-line text-primary text-2xl"></i>
+                        </div>
+                        <div>
+                            <h3 class="text-xl font-bold mb-4">Project Monitoring & Reporting</h3>
+                            <ul class="space-y-3 text-gray-400">
+                                <li>• Pre-planned program charts for all projects</li>
+                                <li>• Regular progress monitoring and monthly reports with photos for clients</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Training & Innovation -->
+                <div class="border-2 border-gray-800 p-8 rounded-lg hover:border-gray-600 transition-colors" data-aos="fade-up" data-aos-delay="400">
+                    <div class="flex items-start gap-6">
+                        <div class="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center flex-shrink-0">
+                            <i class="ri-book-open-line text-primary text-2xl"></i>
+                        </div>
+                        <div>
+                            <h3 class="text-xl font-bold mb-4">Training & Innovation</h3>
+                            <ul class="space-y-3 text-gray-400">
+                                <li>• In-house training sessions for engineers and workers</li>
+                                <li>• Custom mix designs tested for strength and workability in projects</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Vision & Mission -->
+    <section class="py-20 bg-[#1a1a1a]">
+        <div class="max-w-7xl mx-auto px-4 md:px-8">
+            <div class="border-2 border-gray-800 p-8 md:p-12 rounded-lg">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
+                    <!-- Vision Side -->
+                    <div data-aos="fade-right">
+                    <h2 class="text-4xl md:text-5xl font-bold mb-8">Our Vision</h2>
+                    <div class="space-y-6">
+                        <p class="text-gray-300 text-lg leading-relaxed">
+                            To be the global leader in innovative architectural solutions, creating sustainable spaces that enhance lives and communities.
+                        </p>
+                        <div class="space-y-4 mt-8">
+                            <div class="flex items-start space-x-4">
+                                <div class="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center flex-shrink-0">
+                                    <i class="ri-focus-3-line text-primary text-2xl"></i>
+                                </div>
+                                <div>
+                                    <h3 class="text-xl font-bold mb-2">Innovation First</h3>
+                                    <p class="text-gray-400">Pushing boundaries with cutting-edge design solutions</p>
+                                </div>
+                            </div>
+                            <div class="flex items-start space-x-4">
+                                <div class="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center flex-shrink-0">
+                                    <i class="ri-earth-line text-primary text-2xl"></i>
+                                </div>
+                                <div>
+                                    <h3 class="text-xl font-bold mb-2">Sustainability</h3>
+                                    <p class="text-gray-400">Creating eco-friendly spaces for future generations</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                    <!-- Mission Side -->
+                    <div data-aos="fade-left">
+                        <h2 class="text-4xl md:text-5xl font-bold mb-8">Our Mission</h2>
+                        <div class="space-y-6">
+                            <p class="text-gray-300 text-lg leading-relaxed">
+                                To deliver exceptional architectural solutions that transform spaces, enrich communities, and exceed client expectations through innovation and sustainable practices.
+                            </p>
+                            <div class="space-y-4 mt-8">
+                                <div class="flex items-start space-x-4">
+                                    <div class="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center flex-shrink-0">
+                                        <i class="ri-shield-star-line text-primary text-2xl"></i>
+                                    </div>
+                                    <div>
+                                        <h3 class="text-xl font-bold mb-2">Excellence</h3>
+                                        <p class="text-gray-400">Maintaining the highest standards in every project we undertake</p>
+                                    </div>
+                                </div>
+                                <div class="flex items-start space-x-4">
+                                    <div class="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center flex-shrink-0">
+                                        <i class="ri-team-line text-primary text-2xl"></i>
+                                    </div>
+                                    <div>
+                                        <h3 class="text-xl font-bold mb-2">Collaboration</h3>
+                                        <p class="text-gray-400">Working closely with clients to bring their vision to life</p>
+                                    </div>
+                                </div>
+                </div>
+            </div>
+        </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Timeline -->
+    <section class="py-20 bg-[#1a1a1a]">
+        <div class="max-w-7xl mx-auto px-4 md:px-8">
+            <h2 class="text-4xl md:text-5xl font-bold text-center mb-6" data-aos="fade-down">Our Journey </h2>
+            <p class="text-gray-400 text-center mb-16 max-w-3xl mx-auto" data-aos="fade-up">
+                A legacy of excellence since 1994
+            </p>
+
+            <div class="relative">
+                <!-- Vertical Line -->
+                <div class="absolute left-1/2 transform -translate-x-1/2 h-full w-0.5 bg-gray-800"></div>
+
+                <!-- Timeline Items -->
+                <div class="space-y-16">
+                    <!-- Item 1 -->
+                    <div class="flex flex-col md:flex-row items-center justify-end md:justify-between" data-aos="fade-right">
+                        <div class="w-full md:w-5/12 order-2 md:order-1 bg-[#1a1a1a] md:bg-transparent">
+                            <div class="border-2 border-gray-800 p-6 rounded-lg hover:border-gray-600 transition-colors">
+                                <h3 class="text-xl font-bold mb-3">Foundation</h3>
+                                <p class="text-gray-400">Founded in 1994 by Mr. Jaison J Manjaly, Manjaly Infrastructure has grown into one of South India's leading construction companies.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Item 2 -->
+                    <div class="flex flex-col md:flex-row items-center justify-end md:justify-between" data-aos="fade-left">
+                        <div class="w-full md:w-5/12"></div>
+                        <div class="w-4 h-4 rounded-full bg-white border-4 border-gray-800 hidden md:flex items-center justify-center z-10 my-4 md:my-0"></div>
+                        <div class="w-full md:w-5/12 bg-[#1a1a1a] md:bg-transparent">
+                            <div class="border-2 border-gray-800 p-6 rounded-lg hover:border-gray-600 transition-colors">
+                                <h3 class="text-xl font-bold mb-3">Strong Presence</h3>
+                                <p class="text-gray-400">Headquartered in Trichur, Kerala, with a team of 125+ professionals and a strong operational network across the region.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Item 3 -->
+                    <div class="flex flex-col md:flex-row items-center justify-end md:justify-between" data-aos="fade-right">
+                        <div class="w-full md:w-5/12 order-2 md:order-1 bg-[#1a1a1a] md:bg-transparent">
+                            <div class="border-2 border-gray-800 p-6 rounded-lg hover:border-gray-600 transition-colors">
+                                <h3 class="text-xl font-bold mb-3">Rapid Growth</h3>
+                                <p class="text-gray-400">16+ years of rapid growth, delivering high-quality civil engineering solutions and setting new industry standards.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Item 4 -->
+                    <div class="flex flex-col md:flex-row items-center justify-end md:justify-between" data-aos="fade-left">
+                        <div class="w-full md:w-5/12"></div>
+                        <div class="w-4 h-4 rounded-full bg-white border-4 border-gray-800 hidden md:flex items-center justify-center z-10 my-4 md:my-0"></div>
+                        <div class="w-full md:w-5/12 bg-[#1a1a1a] md:bg-transparent">
+                            <div class="border-2 border-gray-800 p-6 rounded-lg hover:border-gray-600 transition-colors">
+                                <h3 class="text-xl font-bold mb-3">Trusted Excellence</h3>
+                                <p class="text-gray-400">Trusted by top builders in Kerala, executing prestigious projects with integrity, professionalism, and customer satisfaction at the core.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Item 5 -->
+                    <div class="flex flex-col md:flex-row items-center justify-end md:justify-between" data-aos="fade-right">
+                        <div class="w-full md:w-5/12 order-2 md:order-1 bg-[#1a1a1a] md:bg-transparent">
+                            <div class="border-2 border-gray-800 p-6 rounded-lg hover:border-gray-600 transition-colors">
+                                <h3 class="text-xl font-bold mb-3">Raising the Bar</h3>
+                                <p class="text-gray-400">Implemented advanced quality control measures, ensuring high standards in every project.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Item 6 -->
+                    <div class="flex flex-col md:flex-row items-center justify-end md:justify-between" data-aos="fade-left">
+                        <div class="w-full md:w-5/12"></div>
+                        <div class="w-4 h-4 rounded-full bg-white border-4 border-gray-800 hidden md:flex items-center justify-center z-10 my-4 md:my-0"></div>
+                        <div class="w-full md:w-5/12 bg-[#1a1a1a] md:bg-transparent">
+                            <div class="border-2 border-gray-800 p-6 rounded-lg hover:border-gray-600 transition-colors">
+                                <h3 class="text-xl font-bold mb-3">Pushing Boundaries</h3>
+                                <p class="text-gray-400">Continuing to set new benchmarks, delivering on-time, high-quality construction with a focus on client satisfaction.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+        <!-- Testimonials Section -->
+        <section class="py-20 bg-[#1a1a1a]">
+            <div class="max-w-7xl mx-auto px-4 md:px-8">
+                <h2 class="text-4xl md:text-5xl font-bold text-center mb-6" data-aos="fade-down"> What our clients say about working with us</h2>
+
+    
+                <div class="relative overflow-hidden" data-aos="fade-up">
+                    <!-- Testimonials Container -->
+                    <div class="testimonial-slider flex transition-transform duration-500">
+                        <!-- Testimonial 1 -->
+                        <div class="testimonial-slide w-full flex-shrink-0">
+                            <div class="max-w-3xl mx-auto text-center">
+                                <div class="mb-8">
+                                    <i class="ri-double-quotes-l text-6xl text-primary/30"></i>
+                                </div>
+                                <p class="text-xl md:text-2xl text-gray-300 mb-8">
+                                    "Working with Manjaly Infrastructure was an exceptional experience. Their attention to detail and commitment to quality exceeded our expectations. The team's professionalism and expertise were evident throughout the project."
+                                </p>
+                                <div class="flex items-center justify-center space-x-4">
+                                    <div>
+                                        <h4 class="font-bold">John Mathew</h4>
+                                        <p class="text-gray-400">CEO, Tech Innovations</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+    
+                        <!-- Testimonial 2 -->
+                        <div class="testimonial-slide w-full flex-shrink-0">
+                            <div class="max-w-3xl mx-auto text-center">
+                                <div class="mb-8">
+                                    <i class="ri-double-quotes-l text-6xl text-primary/30"></i>
+                                </div>
+                                <p class="text-xl md:text-2xl text-gray-300 mb-8">
+                                    "The team's innovative approach and dedication to sustainable practices made our project a success. They delivered not just a building, but a landmark that will stand the test of time."
+                                </p>
+                                <div class="flex items-center justify-center space-x-4">
+                                    <div>
+                                        <h4 class="font-bold">Sarah Johnson</h4>
+                                        <p class="text-gray-400">Director, Green Spaces Ltd</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+    
+                        <!-- Testimonial 3 -->
+                        <div class="testimonial-slide w-full flex-shrink-0">
+                            <div class="max-w-3xl mx-auto text-center">
+                                <div class="mb-8">
+                                    <i class="ri-double-quotes-l text-6xl text-primary/30"></i>
+                                </div>
+                                <p class="text-xl md:text-2xl text-gray-300 mb-8">
+                                    "From concept to completion, Manjaly Infrastructure demonstrated unparalleled expertise. Their ability to understand our vision and translate it into reality was remarkable."
+                                </p>
+                                <div class="flex items-center justify-center space-x-4">
+                                    <div>
+                                        <h4 class="font-bold">David Kumar</h4>
+                                        <p class="text-gray-400">Property Developer</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                                                                    <!-- Testimonial 3 -->
+                                                                    <div class="testimonial-slide w-full flex-shrink-0">
+                                                                        <div class="max-w-3xl mx-auto text-center">
+                                                                            <div class="mb-8">
+                                                                                <i class="ri-double-quotes-l text-6xl text-primary/30"></i>
+                                                                            </div>
+                                                                            <p class="text-xl md:text-2xl text-gray-300 mb-8">
+                                                                                "The team's innovative approach and dedication to sustainable practices made our project a success. They delivered not just a building, but a landmark that will stand the test of time."
+                                                                            </p>
+                                                                            <div class="flex items-center justify-center space-x-4">
+                                                                                <div>
+                                                                                    <h4 class="font-bold">Sarah Johnson</h4>
+                                                                                    <p class="text-gray-400">Director, Green Spaces Ltd</p>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                    </div>
+
+                    
+    
+                    <!-- Navigation Dots -->
+                    <div class="flex justify-center space-x-2 mt-8">
+                        <button class="w-3 h-3 rounded-full bg-gray-600 dot active"></button>
+                        <button class="w-3 h-3 rounded-full bg-gray-600 dot"></button>
+                        <button class="w-3 h-3 rounded-full bg-gray-600 dot"></button>
+                        <button class="w-3 h-3 rounded-full bg-gray-600 dot"></button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    <!-- Our Partners -->
+    <section class="py-20 bg-[#1a1a1a]">
+        <div class="max-w-7xl mx-auto px-4 md:px-8">
+            <h2 class="text-4xl md:text-5xl font-bold text-center mb-6" data-aos="fade-down">Our Partners</h2>
+            <p class="text-gray-400 text-center mb-16 max-w-3xl mx-auto" data-aos="fade-up">
+                Trusted by leading companies across industries
+            </p>
+
+            <div class="space-y-12" data-aos="fade-up">
+                <!-- Partner 1 -->
+                <div class="grid grid-cols-1 md:grid-cols-12 gap-8 items-center">
+                    <div class="md:col-span-8 space-y-4 px-8 md:px-16">
+                        <h3 class="text-2xl font-bold">Manjaly Agrofarm</h3>
+                        <p class="text-gray-400">Since our inception, Manjaly ECO SHOP has built a strong reputation in trading, supplying, and exporting premium hybrid seeds. Our commitment to uncompromising quality and customer satisfaction has earned us the trust of countless clients. With every successful delivery, we reinforce our promise of excellence, driven by a team of experts dedicated to providing only the best.</p>
+                    </div>
+                    <div class="md:col-span-4 border-2 border-gray-800 rounded-lg p-8 flex items-center justify-center hover:border-gray-600 transition-colors">
+                        <img src="s-logo.jpg" alt="Company 1" class="w-full  transition-all">
+                    </div>
+                </div>
+
+                <!-- Partner 2 -->
+                <div class="grid grid-cols-1 md:grid-cols-12 gap-8 items-center">
+                    <div class="md:col-span-4 border-2 border-gray-800 rounded-lg p-8 flex items-center justify-center hover:border-gray-600 transition-colors md:order-1">
+                        <img src="JMA.jpg" alt="Company 2" class="w-full  transition-all">
+                    </div>
+                    <div class="md:col-span-8 space-y-4 px-8 md:px-16 md:order-2">
+                        <h3 class="text-2xl font-bold">JM ASSOCIATES (Architects & Interiors)</h3>
+                        <p class="text-gray-400">Founded by Mr. Jaison J Manjaly, JM Associates stands as one of South India's leading and fastest-growing building design firms. We craft thoughtful, original, and contemporary designs that seamlessly blend functionality, aesthetics, and purpose. Every project we undertake is driven by a deep sense of humanism and innovation, ensuring spaces that inspire and fulfill every client’s vision. </p>
+                    </div>
+                </div>
+
+                <!-- Partner 3 -->
+                <div class="grid grid-cols-1 md:grid-cols-12 gap-8 items-center">
+                    <div class="md:col-span-8 space-y-4 px-8 md:px-16">
+                        <h3 class="text-2xl font-bold"> Anna Textiles</h3>
+                        <p class="text-gray-400">A trusted name in readymade garment retail, Anna Textiles has established itself as a top player in Thrissur. As a one-stop destination for quality fashion, we cater to both local and outstation customers, ensuring an unmatched shopping experience. Our commitment to customer satisfaction and industry excellence has helped us build a loyal and growing customer base. Driven by a passionate team, we continue to set new benchmarks in style, quality, and service. </p>
+                    </div>
+                    <div class="md:col-span-4 border-2 border-gray-800 rounded-lg p-8 flex items-center justify-center hover:border-gray-600 transition-colors">
+                        <img src="Final logo FOR ANNA SILKS.jpg" alt="Company 3" class="w-full  transition-all">
+                    </div>
+                </div>
+
+                <!-- Add more partners following the same pattern -->
+            </div>
+
+            <!-- See All Button -->
+            <div class="text-center mt-16" data-aos="fade-up">
+                <button class="bg-transparent text-white px-8 py-3 rounded border-2 border-white hover:bg-white hover:text-black transition-all">
+                    See All Partners
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer (Same as index.html) -->
+    <footer class="bg-[#1a1a1a] py-16 border-t border-gray-800">
+        <!-- Copy footer content from index.html -->
+    </footer>
+
+    <script>
+        AOS.init({
+            duration: 800,
+            once: true,
+            offset: 100,
+            easing: 'ease-out-cubic'
+        });
+
+                // Testimonial Slider
+                const testimonialSlider = document.querySelector('.testimonial-slider');
+        const dots = document.querySelectorAll('.dot');
+        let currentSlide = 0;
+        const slideCount = document.querySelectorAll('.testimonial-slide').length;
+
+        function updateSlider() {
+            testimonialSlider.style.transform = `translateX(-${currentSlide * 100}%)`;
+            
+            // Update dots
+            dots.forEach((dot, index) => {
+                if (index === currentSlide) {
+                    dot.classList.add('bg-white');
+                    dot.classList.remove('bg-gray-600');
+                } else {
+                    dot.classList.remove('bg-white');
+                    dot.classList.add('bg-gray-600');
+                }
+            });
+        }
+
+        function nextSlide() {
+            currentSlide = (currentSlide + 1) % slideCount;
+            updateSlider();
+        }
+
+        // Click handlers for dots
+        dots.forEach((dot, index) => {
+            dot.addEventListener('click', () => {
+                currentSlide = index;
+                updateSlider();
+            });
+        });
+
+        // Auto-slide every 3 seconds
+        setInterval(nextSlide, 5000);
+
+        // Initial update
+        updateSlider();
+
+    </script>
+</body>
+</html>
